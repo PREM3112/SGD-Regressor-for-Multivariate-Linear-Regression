@@ -8,24 +8,27 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the standard Libraries.
+STEP 1:Import the standard Libraries.
 
-2.Set variables for assigning dataset values.
+STEP 2:Set variables for assigning dataset values.
 
-3.Import linear regression from sklearn.
+STEP 3:Import linear regression from sklearn.
 
-4.Assign the points for representing in the graph
+STEP 4:Assign the points for representing in the graph
 
-5.Predict the regression for marks by using the representation of the graph.
+STEP 5:Predict the regression for marks by using the representation of the graph.
 
-6.Compare the graphs and hence we obtained the linear regression for the given datas.
+STEP 6:Compare the graphs and hence we obtained the linear regression for the given datas.
 
 ## Program:
-```
 /*
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
+
 Developed by: PREM R
+
 RegisterNumber: 212223240124
+/*
+```
 import numpy as np
 from sklearn.datasets import fetch_california_housing
 from sklearn.linear_model import SGDRegressor
